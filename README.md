@@ -25,12 +25,12 @@ Create a project
 ```bash
     mvn archetype:generate \
         -DarchetypeGroupId=com.github.tereshse \
-        -DarchetypeArtifactId=sandbox-java-project \
+        -DarchetypeArtifactId=archetype-repository \
         -DarchetypeVersion=1.0.0 \
         -DgroupId=groupid \
         -DartifactId=artifactId \
         -Dversion=version \
-        -DarchetypeRepository=http://tereshse.github.io/sarchetype-repository
+        -DarchetypeRepository=http://tereshse.github.io/archetype-repository
 ```
 
 Create a new project in IntelliJ
